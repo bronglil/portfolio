@@ -15,13 +15,6 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
   uConnect,
   invyce,
@@ -31,6 +24,10 @@ import {
   envoyFE,
   infinitywebFE,
   hackathonFE,
+  landaFE,
+  github,
+  Twitter,
+  Linkedin,
 } from "../assets";
 
 export const navLinks = [
@@ -50,7 +47,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Front End Developer",
     icon: web,
   },
   {
@@ -58,7 +55,7 @@ const services = [
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Full Stack Developer",
     icon: backend,
   },
 ];
@@ -118,9 +115,27 @@ const technologies = [
   },
 ];
 
+const workFlow = [
+  {
+    name: "Github",
+    icon: github,
+    link: "https://github.com/bronglil",
+  },
+  {
+    name: "Linkedin",
+    icon: Linkedin,
+    link: "https://www.linkedin.com/in/lilbrong/",
+  },
+  {
+    name: "Twitter",
+    icon: Twitter,
+    link: "https://twitter.com/bronglil",
+  },
+];
+
 const experiences = [
   {
-    title: "React.js Developer",
+    title: "Javascript Developer",
     company_name: "uConnect Technologies",
     icon: uConnect,
     iconBg: "#E6DEDD",
@@ -139,10 +154,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jan 2022 - Nov 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Building and sustaining web apps with React.js and associated technologies.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "I collaborated closely with designers to optimize the user experience and utilized the latest front-end development technologies and best practices to consistently deliver high-quality products. ",
+      "I also debugged and troubleshot web applications and websites to maintain their functionality, while ensuring that documentation was kept up-to-date.",
     ],
   },
   {
@@ -152,9 +167,9 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jan 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "my primary responsibility is to design, develop, and implement web-based applications using the language. This involves a wide range of tasks, starting with understanding the requirements of the client and comprehending their needs.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
+      "I also collaborate with other developers and stakeholders in the project to ensure that the final product meets all the necessary standards and requirements.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
@@ -164,9 +179,9 @@ const testimonials = [
   {
     testimonial:
       "We extend our heartfelt congratulations to the brilliant team who emerged victorious at the GB-Tech Hackathon 1! Your exceptional skills, innovative thinking, and relentless determination have propelled you to the top spot among fierce competitors",
-    name: "Khalid khurshid",
-    designation: "CM",
-    company: "GIlgit Baltistan",
+    name: "",
+    designation: "",
+    company: "",
     image: hackathonFE,
   },
   // {
@@ -215,7 +230,7 @@ const projects = [
       },
     ],
     image: gilgitappFE,
-    source_code_link: "https://github.com/",
+    source_code_link: "http://gilgit.app/",
   },
   {
     name: "Invyce",
@@ -240,7 +255,7 @@ const projects = [
       },
     ],
     image: invyceFE,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://enterprise.invyce.com/",
   },
   {
     name: "Envoy/BlinkMobility",
@@ -265,7 +280,7 @@ const projects = [
       },
     ],
     image: envoyFE,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://www.envoythere.com/mobility-app",
   },
   {
     name: "Infinity web market",
@@ -290,8 +305,36 @@ const projects = [
       },
     ],
     image: infinitywebFE,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://infinityweb.app/",
+  },
+  {
+    name: "Landa",
+    description:
+      "Real estate investing for everyone. Our platform welcomes both seasoned investors and newcomers alike, providing accessibility and resources to navigate the world of real estate. We believe in empowering individuals to build wealth and financial stability through property ownership. Join us on our mission to make real estate investing inclusive and attainable for all.",
+    tags: [
+      {
+        name: "Next js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Content-full",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: landaFE,
+    source_code_link: "https://landa.app/",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  workFlow,
+};

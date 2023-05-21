@@ -20,6 +20,8 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import Twitter from "./tech/twitter.png";
+import Linkedin from "./tech/linkedin.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -37,6 +39,7 @@ import invyceFE from "./invyce.png";
 import envoyFE from "./envoy.png";
 import infinitywebFE from "./infinityweb.png";
 import hackathonFE from "./hackathon.jpeg";
+import landaFE from "./landa.png";
 
 export {
   logo,
@@ -75,4 +78,7 @@ export {
   envoyFE,
   infinitywebFE,
   hackathonFE,
+  landaFE,
+  Twitter,
+  Linkedin,
 };
